@@ -4,11 +4,11 @@ export default function RightHeader() {
   return (
     <div className="right-header">
       <nav className="nav-menu">
-        <a className="nav-items bg-color" href="">
+        <a className="nav-items bg-color" href="rgf">
           Mailbox
         </a>
         {['Customers', 'Reporting', 'Manage'].map(menu => (
-          <a className="nav-items hover-color" href="">
+          <a className="nav-items hover-color" href="fty">
             {menu}
           </a>
         ))}
